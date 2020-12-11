@@ -17,6 +17,7 @@ public class EngToJap extends AppCompatActivity {
         Button easy = (Button) findViewById(R.id.EasyBTN2);
         Button normal = (Button) findViewById(R.id.NormalBTN2);
         Button difficult = (Button) findViewById(R.id.DifficultBTN2);
+        Button back = (Button) findViewById(R.id.EngToJapBackBTN);
 
         easy.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -34,6 +35,12 @@ public class EngToJap extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(EngToJap.this, DifficultEngToJap.class));
+            }
+        });
+        back.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(EngToJap.this, MainMenu.class));
             }
         });
 

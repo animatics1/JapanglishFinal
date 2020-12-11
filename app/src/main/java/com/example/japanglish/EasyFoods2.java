@@ -7,26 +7,26 @@ import android.widget.Button;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-public class EasyFoods extends AppCompatActivity {
+public class EasyFoods2 extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.easyfoods);
+        setContentView(R.layout.easyfoods2);
 
-        Button next = (Button) findViewById(R.id.FoodsNextBTN);
-        Button back = (Button) findViewById(R.id.FoodsBackBTN);
+        Button next = (Button) findViewById(R.id.Foods2NextBTN);
+        Button back = (Button) findViewById(R.id.Foods2BackBTN);
 
         next.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(EasyFoods.this, EasyFoods2.class));
+                startActivity(new Intent(EasyFoods2.this, EasyFoods3.class));
             }
         });
         back.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(EasyFoods.this, EasyNumbers2.class));
+                startActivity(new Intent(EasyFoods2.this, EasyFoods.class));
             }
         });
 

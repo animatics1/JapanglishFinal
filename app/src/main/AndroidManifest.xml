@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.japanglish">
+    <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.ACCESS_NOTIFICATION_POLICY"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
 
     <application
         android:allowBackup="true"
@@ -34,6 +37,12 @@
         <activity android:name=".EasyNumbers">
         </activity>
         <activity android:name=".EasyNumbers2">
+        </activity>
+        <activity android:name=".EasyFoods">
+        </activity>
+        <activity android:name=".EasyFoods2">
+        </activity>
+        <activity android:name=".EasyFoods3">
         </activity>
     </application>
 

@@ -21,33 +21,35 @@
         app:layout_constraintVertical_bias="0.044" />
 
     <ImageView
-        android:layout_width="386dp"
-        android:layout_height="343dp"
+        android:layout_width="343dp"
+        android:layout_height="371dp"
         android:src="@drawable/fruits"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.48"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.077" />
+        app:layout_constraintVertical_bias="0.089" />
 
     <TextView
-        android:layout_width="391dp"
+        android:layout_width="360dp"
         android:layout_height="247dp"
-        android:text="@string/fruits"
+        android:text="Anzu - Apricot 杏子 | Budou - Grapes ブドウ\nNichigo - Strawberry イチゴ \nKabocha - Pumpkin かぼちゃ
+| Kiui - Kiwi キウイ Meron - Melon メロン Mikan - Mini Orange みかん\nMomo - Peach 桃 | Nashi - Pear なし\n
+Orenji - Orange オレンジ | Remon - Remon レモン\nRingo - Apple林檎 | Sakuranbo - Cherryさくらんぼ\n
+Suika - Watermelon スイカ \n Zakuro - Pomegranate ザクロ"
         android:textAlignment="center"
         android:textColor="@color/black"
-        android:textSize="17.8dp"
+        android:textSize="14dp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.476"
+        app:layout_constraintHorizontal_bias="0.49"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.707" />
+        app:layout_constraintVertical_bias="0.739" />
 
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/Numbers2NextBTN"
+        android:id="@+id/FoodsNextBTN"
         android:layout_width="125dp"
         android:layout_height="87dp"
         android:text="Next\n次"
@@ -61,7 +63,7 @@
         app:layout_constraintVertical_bias="0.914" />
 
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/Numbers2BackBTN"
+        android:id="@+id/FoodsBackBTN"
         android:layout_width="125dp"
         android:layout_height="87dp"
         android:text="Back\nバック"

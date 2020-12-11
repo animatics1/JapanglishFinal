@@ -22,8 +22,8 @@
         app:layout_constraintVertical_bias="0.089" />
 
     <ImageView
-        android:layout_width="363dp"
-        android:layout_height="415dp"
+        android:layout_width="333dp"
+        android:layout_height="389dp"
         android:src="@drawable/officejap1"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
