@@ -3,11 +3,13 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:background="@drawable/english">
+    android:background="@drawable/english"
+    >
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Easy Mode \n簡単"
+        android:text="Normal Mode \n英語 - 日本語"
         android:textAlignment="center"
         android:textColor="@color/black"
         android:textStyle="bold"
@@ -32,10 +34,10 @@
         app:layout_constraintVertical_bias="0.268" />
 
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/SchoolSuppliesBTN2"
+        android:id="@+id/EasyBTN2"
         android:layout_width="298dp"
         android:layout_height="95dp"
-        android:text="School Supplies\n学用品"
+        android:text="Common Phrases\n簡単"
         android:textColor="@color/black"
         android:textSize="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -46,10 +48,10 @@
         app:layout_constraintVertical_bias="0.424" />
 
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/NumberBTN2"
+        android:id="@+id/NormalBTN2"
         android:layout_width="296dp"
         android:layout_height="92dp"
-        android:text="Numbers\n数字"
+        android:text="Normal mode\n正常"
         android:textColor="@color/black"
         android:textSize="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -60,10 +62,10 @@
         app:layout_constraintVertical_bias="0.589" />
 
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/FoodsBTN2"
+        android:id="@+id/DifficultBTN2"
         android:layout_width="296dp"
         android:layout_height="92dp"
-        android:text="Food Items\n食品"
+        android:text="Difficult Mode\n難しい"
         android:textColor="@color/black"
         android:textSize="20dp"
         app:layout_constraintBottom_toBottomOf="parent"

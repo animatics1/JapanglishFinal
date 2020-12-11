@@ -10,7 +10,8 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Japanglish">
 
-        <activity android:name=".MainActivity">
+
+        <activity android:name=".SplashActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
@@ -21,6 +22,18 @@
         <activity android:name=".EngToJap">
         </activity>
         <activity android:name=".JapToEng">
+        </activity>
+        <activity android:name=".EasyEngToJap">
+        </activity>
+        <activity android:name=".EasySchoolSupplies">
+        </activity>
+        <activity android:name=".SchoolSupplies2">
+        </activity>
+        <activity android:name=".MainActivity">
+        </activity>
+        <activity android:name=".EasyNumbers">
+        </activity>
+        <activity android:name=".EasyNumbers2">
         </activity>
     </application>
 
