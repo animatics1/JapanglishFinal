@@ -34,24 +34,24 @@
         app:layout_constraintVertical_bias="0.268" />
 
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/EasyBTN2"
+        android:id="@+id/CommonPhrasesBTN"
         android:layout_width="298dp"
         android:layout_height="95dp"
-        android:text="Common Phrases\n簡単"
+        android:text="Common Phrases\n一般的なフレーズ"
         android:textColor="@color/black"
         android:textSize="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintHorizontal_bias="0.486"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.424" />
+        app:layout_constraintVertical_bias="0.386" />
 
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/NormalBTN2"
+        android:id="@+id/GreetingsBTN2"
         android:layout_width="296dp"
         android:layout_height="92dp"
-        android:text="Normal mode\n正常"
+        android:text="Greetings\nあいさつ"
         android:textColor="@color/black"
         android:textSize="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -59,13 +59,13 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.589" />
+        app:layout_constraintVertical_bias="0.547" />
 
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/DifficultBTN2"
+        android:id="@+id/AdvancedWordsBTN2"
         android:layout_width="296dp"
         android:layout_height="92dp"
-        android:text="Difficult Mode\n難しい"
+        android:text="Advanced Words\n事前の言葉"
         android:textColor="@color/black"
         android:textSize="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -73,6 +73,20 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.762" />
+        app:layout_constraintVertical_bias="0.71" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/NormalEngToJapBackBTN"
+        android:layout_width="125dp"
+        android:layout_height="87dp"
+        android:text="Back\nバック"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.192"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.891" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
