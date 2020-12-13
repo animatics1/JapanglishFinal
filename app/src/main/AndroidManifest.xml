@@ -68,6 +68,10 @@
         </activity>
         <activity android:name=".MiniWikipedia">
         </activity>
+        <activity android:name=".EasyQuiz1">
+        </activity>
+        <activity android:name=".NormalQuiz1">
+        </activity>
     </application>
 
 </manifest>

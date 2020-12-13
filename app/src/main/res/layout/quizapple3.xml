@@ -9,7 +9,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Easy Mode\nQuestion 1/12"
+        android:text="Hard Mode\nQuestion 1/12"
         android:textAlignment="center"
         android:textColor="@color/black"
         android:textSize="36dp"
@@ -19,7 +19,20 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.087" />
+        app:layout_constraintVertical_bias="0.087"/>
+
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:layout_width="276dp"
+        android:layout_height="39dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.422"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.751"
+        android:hint="answer here"
+        android:textAlignment="center"/>
 
     <ImageView
         android:layout_width="259dp"
@@ -32,50 +45,22 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.31" />
 
-    <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/choice2easyNextBTN"
-        android:layout_width="279dp"
-        android:layout_height="71dp"
-        android:text="Orenjii (オレンジ)"
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="What is this? Type your answer in Romaji/Kanji"
+        android:textAlignment="center"
         android:textColor="@color/black"
-        android:textSize="20dp"
+        android:textSize="30dp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.462"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.768" />
+        app:layout_constraintVertical_bias="0.653" />
 
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/wrong1BTN"
-        android:layout_width="279dp"
-        android:layout_height="71dp"
-        android:text="Ichigo (イチゴ)"
-        android:textColor="@color/black"
-        android:textSize="20dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.462"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.89" />
-
-    <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/correctanswerBTN"
-        android:layout_width="279dp"
-        android:layout_height="71dp"
-        android:text="Ringo (林檎)"
-        android:textColor="@color/black"
-        android:textSize="20dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.439"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.645" />
-
-    <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/wrongBTN"
+        android:id="@+id/Numbers2BackBTN"
         android:layout_width="91dp"
         android:layout_height="53dp"
         android:text="Back\nバック"
@@ -87,5 +72,18 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.024" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/SumbitHardAppleBackBTN"
+        android:layout_width="207dp"
+        android:layout_height="74dp"
+        android:text="Submit\nバック"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.89" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

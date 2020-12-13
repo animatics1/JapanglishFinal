@@ -9,7 +9,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Easy Mode\nQuestion 1/12"
+        android:text="Normal Mode\nQuestion 1/12"
         android:textAlignment="center"
         android:textColor="@color/black"
         android:textSize="36dp"
@@ -24,7 +24,7 @@
     <ImageView
         android:layout_width="259dp"
         android:layout_height="274dp"
-        android:src="@drawable/apple"
+        android:src="@drawable/speaker"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0.486"
         app:layout_constraintLeft_toLeftOf="parent"
@@ -33,10 +33,10 @@
         app:layout_constraintVertical_bias="0.31" />
 
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/choice2easyNextBTN"
+        android:id="@+id/wronganswerBTN"
         android:layout_width="279dp"
         android:layout_height="71dp"
-        android:text="Orenjii (オレンジ)"
+        android:text="オレンジ"
         android:textColor="@color/black"
         android:textSize="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -47,10 +47,10 @@
         app:layout_constraintVertical_bias="0.768" />
 
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/wrong1BTN"
+        android:id="@+id/wronganswer2BTN"
         android:layout_width="279dp"
         android:layout_height="71dp"
-        android:text="Ichigo (イチゴ)"
+        android:text="イチゴ"
         android:textColor="@color/black"
         android:textSize="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -61,10 +61,10 @@
         app:layout_constraintVertical_bias="0.89" />
 
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/correctanswerBTN"
+        android:id="@+id/correctanswer2BTN"
         android:layout_width="279dp"
         android:layout_height="71dp"
-        android:text="Ringo (林檎)"
+        android:text="林檎"
         android:textColor="@color/black"
         android:textSize="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -75,7 +75,7 @@
         app:layout_constraintVertical_bias="0.645" />
 
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/wrongBTN"
+        android:id="@+id/NormalQuizBackBTN"
         android:layout_width="91dp"
         android:layout_height="53dp"
         android:text="Back\nバック"
