@@ -62,8 +62,12 @@
         </activity>
         <activity android:name=".AdvancedWords3">
         </activity>
-
-
+        <activity android:name=".QuizMenu">
+        </activity>
+        <activity android:name=".NormalQuizMenu">
+        </activity>
+        <activity android:name=".MiniWikipedia">
+        </activity>
     </application>
 
 </manifest>

@@ -21,7 +21,7 @@
         app:layout_constraintVertical_bias="0.125" />
 
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/FoodWikiBTN"
+        android:id="@+id/EasyModeBTN"
         android:layout_width="298dp"
         android:layout_height="95dp"
         android:text="Easy Mode\n食品カテゴリー"
@@ -35,7 +35,7 @@
         app:layout_constraintVertical_bias="0.372" />
 
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/ItemWikiBTN"
+        android:id="@+id/NormalModeBTN"
         android:layout_width="296dp"
         android:layout_height="92dp"
         android:text="Normal Mode\nアイテムカテゴリ"
@@ -49,7 +49,7 @@
         app:layout_constraintVertical_bias="0.53" />
 
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/VocabularyWikiBTN"
+        android:id="@+id/DifficultModeBTN"
         android:layout_width="296dp"
         android:layout_height="92dp"
         android:text="Hard Mode\n語彙セクション"
@@ -62,11 +62,8 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.694" />
 
-
-
-
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/ItemsWikiBackBTN"
+        android:id="@+id/QuizMenuBackBTN"
         android:layout_width="104dp"
         android:layout_height="64dp"
         android:text="Back\nバック"
