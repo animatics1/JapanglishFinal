@@ -20,6 +20,7 @@ public class MiniWikipedia extends AppCompatActivity {
         Button FoodSection = (Button) findViewById(R.id.FoodWikiBTN);
         Button ItemSection = (Button) findViewById(R.id.ItemWikiBTN);
         Button Vocabulary = (Button) findViewById(R.id.VocabularyWikiBTN);
+        Button back = (Button) findViewById(R.id.WikipediaBackBTN);
 
         FoodSection.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -37,6 +38,12 @@ public class MiniWikipedia extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(MiniWikipedia.this, VocabularyJ.class));
+            }
+        });
+        back.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MiniWikipedia.this, MainMenu.class));
             }
         });
 

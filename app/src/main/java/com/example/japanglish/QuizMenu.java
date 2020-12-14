@@ -14,9 +14,9 @@ public class QuizMenu extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.quizmenu);
 
-        Button easy = (Button) findViewById(R.id.EasyModeBTN);
-        Button normal = (Button) findViewById(R.id.NormalModeBTN);
-        Button difficult = (Button) findViewById(R.id.DifficultModeBTN);
+        Button easy = (Button) findViewById(R.id.EasyQuizModeBTN);
+        Button normal = (Button) findViewById(R.id.NormalQuizModeBTN);
+        Button difficult = (Button) findViewById(R.id.DifficultQuizModeBTN);
         Button back = (Button) findViewById(R.id.QuizMenuBackBTN);
 
         easy.setOnClickListener(new View.OnClickListener() {

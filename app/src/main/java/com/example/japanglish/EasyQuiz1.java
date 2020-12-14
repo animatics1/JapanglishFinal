@@ -16,8 +16,6 @@ public class EasyQuiz1 extends AppCompatActivity {
         setContentView(R.layout.quizapple1);
 
         Button apple = (Button) findViewById(R.id.correctanswerBTN);
-        Button wrong = (Button) findViewById(R.id.NormalModeBTN);
-        Button wrong1 = (Button) findViewById(R.id.DifficultModeBTN);
         Button back = (Button) findViewById(R.id.QuizMenuBackBTN);
 
 
@@ -27,21 +25,7 @@ public class EasyQuiz1 extends AppCompatActivity {
                 startActivity(new Intent(EasyQuiz1.this, quizorange1.class));
             }
         });
-        wrong.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                toastMsg("Wrong Answer");
 
-            }
-
-        });
-        wrong1.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                toastMsg("Wrong Answer");
-            }
-
-        });
         back.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -51,9 +35,4 @@ public class EasyQuiz1 extends AppCompatActivity {
 
     }
 
-    private void toastMsg(String wrong_answer) {
-        String msg = "wrong answer";
-        Toast toast = Toast.makeText(this, msg, Toast.LENGTH_LONG);
-        toast.show();
-    }
 }

@@ -27,21 +27,7 @@ public class NormalQuiz1 extends AppCompatActivity {
                 startActivity(new Intent(NormalQuiz1.this, quizorange2.class));
             }
         });
-        wrong.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                toastMsg("Wrong Answer");
 
-            }
-
-        });
-        wrong1.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                toastMsg("Wrong Answer");
-            }
-
-        });
         back.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -49,11 +35,5 @@ public class NormalQuiz1 extends AppCompatActivity {
             }
         });
 
-    }
-
-    private void toastMsg(String wrong_answer) {
-        String msg = "wrong answer";
-        Toast toast = Toast.makeText(this, msg, Toast.LENGTH_LONG);
-        toast.show();
     }
 }
