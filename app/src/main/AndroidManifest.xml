@@ -72,6 +72,16 @@
         </activity>
         <activity android:name=".NormalQuiz1">
         </activity>
+        <activity android:name=".FoodSectionJ">
+        </activity>
+        <activity android:name=".ItemSectionJ">
+        </activity>
+        <activity android:name=".VocabularyJ">
+        </activity>
+        <activity android:name=".DifficultQuizMenu">
+        </activity>
+        <activity android:name=".DifficultEngToJap">
+        </activity>
 
 
     </application>

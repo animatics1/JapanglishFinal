@@ -17,9 +17,9 @@ public class MiniWikipedia extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.miniwikipedia);
 
-        Button FoodSection = (Button) findViewById(R.id.FoodWikiBTN);
-        Button ItemSection = (Button) findViewById(R.id.ItemWikiBTN);
-        Button Vocabulary = (Button) findViewById(R.id.VocabularyWikiBTN);
+        Button FoodSection = (Button) findViewById(R.id.FoodWikiGoBTN);
+        Button ItemSection = (Button) findViewById(R.id.ItemWikiGoBTN);
+        Button Vocabulary = (Button) findViewById(R.id.VocabularyWikiGoBTN);
         Button back = (Button) findViewById(R.id.WikipediaBackBTN);
 
         FoodSection.setOnClickListener(new View.OnClickListener() {

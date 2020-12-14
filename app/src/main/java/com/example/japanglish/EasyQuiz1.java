@@ -15,24 +15,7 @@ public class EasyQuiz1 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.quizapple1);
 
-        Button apple = (Button) findViewById(R.id.correctanswerBTN);
-        Button back = (Button) findViewById(R.id.QuizMenuBackBTN);
-
-
-        apple.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                startActivity(new Intent(EasyQuiz1.this, quizorange1.class));
-            }
-        });
-
-        back.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                startActivity(new Intent(EasyQuiz1.this, QuizMenu.class));
-            }
-        });
 
     }
-
 }
+
